@@ -5,6 +5,7 @@ import NetflixFooter from './components/NetflixFooter';
 import Home from './components/Home';
 import Batman from './components/Batman'
 import Superman from './components/Superman';
+import Harrypotter from './components/Harrypotter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <Batman type='Batman'/>
       <Superman type='Superman'/>
+      <Harrypotter type='Harry Potter'/>
       <NetflixFooter/>
 
     </div>

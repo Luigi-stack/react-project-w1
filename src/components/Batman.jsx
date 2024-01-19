@@ -13,7 +13,7 @@ class Batman extends Component {
   fetchMovies = async () => {
     try {
       const response = await fetch
-      ("http://www.omdbapi.com/?apikey=54d80b21&s=batman");
+      ("https://www.omdbapi.com/?apikey=54d80b21&s=batman");
 
       if (response.ok) {
         const data = await response.json();

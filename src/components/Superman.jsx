@@ -13,7 +13,7 @@ class Superman extends Component {
   fetchMovies = async () => {
     try {
       const response = await fetch
-      ("http://www.omdbapi.com/?apikey=54d80b21&s=superman");
+      ("https://www.omdbapi.com/?apikey=54d80b21&s=superman");
 
       if (response.ok) {
         const data = await response.json();
